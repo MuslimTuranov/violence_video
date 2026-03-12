@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.8333333333333334,
+  "classification_report": {
+    "NonViolence": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "Violence": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "accuracy": 0.8333333333333334,
+    "macro avg": {
+      "precision": 0.875,
+      "recall": 0.8333333333333333,
+      "f1-score": 0.8285714285714285,
+      "support": 6.0
+    },
+    "weighted avg": {
+      "precision": 0.875,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8285714285714286,
+      "support": 6.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "num_videos": 6,
+  "predictions": [
+    {
+      "video_path": "test_videos\\NonViolence\\mixkit-colleagues-greet-each-other-in-the-office-lobby-48501-hd-ready.mp4",
+      "target": 0,
+      "prediction": 0,
+      "confidence": 0.86566561460495
+    },
+    {
+      "video_path": "test_videos\\NonViolence\\mixkit-musician-playing-drums-on-stage-427-hd-ready.mp4",
+      "target": 0,
+      "prediction": 0,
+      "confidence": 0.9964050054550171
+    },
+    {
+      "video_path": "test_videos\\NonViolence\\mixkit-two-little-boys-waving-at-the-camera-33479-hd-ready.mp4",
+      "target": 0,
+      "prediction": 0,
+      "confidence": 0.9756661653518677
+    },
+    {
+      "video_path": "test_videos\\Violence\\mixkit-a-young-woman-wearing-a-balaclava-shows-off-her-firearm-49595-hd-ready.mp4",
+      "target": 1,
+      "prediction": 1,
+      "confidence": 0.9875673055648804
+    },
+    {
+      "video_path": "test_videos\\Violence\\mixkit-man-posing-with-a-gun-on-an-abandoned-site-23022-hd-ready.mp4",
+      "target": 1,
+      "prediction": 0,
+      "confidence": 0.9969193935394287
+    },
+    {
+      "video_path": "test_videos\\Violence\\mixkit-two-armed-thieves-robbing-the-coffee-shop-23137-hd-ready.mp4",
+      "target": 1,
+      "prediction": 1,
+      "confidence": 0.9776467680931091
+    }
+  ]
+}

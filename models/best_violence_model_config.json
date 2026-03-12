@@ -1,0 +1,11 @@
+{
+  "architecture": "r3d_18",
+  "weights": "R3D_18_Weights.DEFAULT",
+  "num_classes": 2,
+  "num_frames": 16,
+  "frame_size": 112,
+  "label_map": {
+    "0": "NonViolence",
+    "1": "Violence"
+  }
+}
